@@ -22,5 +22,6 @@ im[4,4,1] = 225
 im[7,6,0] = 225
 
 rgb = cv2.cvtColor(im, cv2.COLOR_BGR2RGB)
+utils.grid(plt, rgb)
 plt.imshow(rgb) #cmap='gray' | mapa de grises, cuando no usamos 3 colores
 plt.show()

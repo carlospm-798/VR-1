@@ -27,5 +27,6 @@ im[0,0,2] = 225
 im[0,2,1] = 225
 im[0,4,0] = 225
 
+utils.grid(plt, im)
 plt.imshow(im) #,cmap= 'gray'
 plt.show()

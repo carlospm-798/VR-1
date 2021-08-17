@@ -23,5 +23,6 @@ while cont <= 5:
 im[0:6,0:3,2] = 225
 im[6:12,3:6,0] = 225
 
+utils.grid(plt, im)
 plt.imshow(im)
 plt.show()
